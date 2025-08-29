@@ -5,4 +5,4 @@ DECLARE
     env text := current_setting('map.env', true);
 
 
----- psql -c "SET myapp.databasename = '$databasename';SET myapp.servername = '$servername';SET myapp.env = '$env';" -f Postgres.sql
+---- psql -c "SET map.databasename = '$databasename';SET map.servername = '$servername';SET map.env = '$env';" -f Postgres.sql
